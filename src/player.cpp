@@ -1,6 +1,9 @@
 #include "../includes/player.hpp"
-Player::Player(string name,int rating):_name(name),_rating(rating){
-    std::cout<<"Created player - name: "<<name<<" rating: "<<rating<<std::endl;
+Player::Player(string name):_name(name){
+
+    int random = rand()%10000+1;
+    _rating = random;
+    std::cout<<"Created player - name: "<<name<<" rating: "<<_rating<<std::endl;
 }
 
 int Player::getRating()const{
