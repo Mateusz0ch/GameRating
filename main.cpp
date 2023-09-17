@@ -29,5 +29,6 @@ int main(){
     calculator.addPlayer(p9);
     calculator.addPlayer(p10);
 
+    calculator.init();
     calculator.displayAllPlayers();
 }

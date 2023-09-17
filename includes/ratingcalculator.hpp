@@ -24,5 +24,8 @@ class RatingCalculator{
     void addPlayer(Player&);
     void displayAllPlayers();
     int getAverageRating(vPlayer &);
+    void setAverageRatings();
+    void init();
+    int getAdditionalPoints(Player,int);
 };
 #endif
